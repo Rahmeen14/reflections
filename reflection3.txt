@@ -1,5 +1,1 @@
-How is the staging area different from the working directory and the repository? What value do you think it offers?
 
----->>> The staging area is an intermediate area between working directory and repository.
-It holds all changes made to files in the working directory before it is logically sane to commit them.
-I feel it does have value to offer as lesser frequent commits are required. Also, multiple files can be committed together!
