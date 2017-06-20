@@ -1,2 +1,25 @@
-Cake is here.
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Q>> How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+R<< Having been able to easily access the entire history of the code has multiple advanyages:
+    a)It gives a loose rein to creative and imaginative experimentation because even if the code breaks the entire history remains at our disposal for restoration.
+    b)Bug tackling is also relatively easy
+    c)It is absolutely necessary for any form of distributed, collaborative development.
+    d)The ability ti literally "track" each change and that to reverse it as and when required is indeed crucial to software development
+
+Q>>What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+R<< Manually choosing to create a commit is a relatively more rational approach as opposed to automatic saving at regular intervals because:
+    a) A lot of unnecessary commits would be made which is a fundamentally flawed idea.
+    b) The saved versions might be buggy.
+    c) There will be no logical relation between commits made and commit history will then be of little use.
+Automatic saving, however, saves effort on my part.
+
+Q>>Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+R<<Git allows commiting multiple files together as changes in multiple files may correspond to a single logical change. For instance, a change logical made to say a web page will affect both its .html and .css files hence these changes made to these files must be committed together.
+
+Q>>How can you use the commands git log and git diff to view the history of files?
+R<<git log will render an anti-chronlogical list of all commits made in my current branch whereas git  diff will enlist (readably enough) distinctions between different commits. Hence using the two thwe entire history of the file obtained.
+
+Q>>How might using version control make you more confident to make changes that could break something?
+R<<By simply granting an assurance that the previous working version is safe with its entire track history!
+
+Q>>Now that you have your workspace set up, what do you want to try using Git for?
+R<<For just everything i do on my system now, every project, every assignment and yes with git i'll continue to reflect!:)
